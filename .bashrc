@@ -2,7 +2,7 @@
 # ~/.bash_profile
 #
 # If exists, run OS bashrc
-[[ -f $HOME/.osbk_bashrc ]] && source $HOME/.osbk_bashrc
+[[ -f $HOME/.osbk.bashrc ]] && source $HOME/.osbk.bashrc
 
 # env. vars
 [[ -f $HOME/.bash/env.bash ]] && source $HOME/.bash/env.bash
