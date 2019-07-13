@@ -1,0 +1,9 @@
+[user]
+	email = nahuelourthe1996@gmail.com
+	name = Nahuel Ourthe
+[alias]
+	lodag = log --oneline --decorate --all --graph --color
+	lod = log --oneline --decorate --color
+	co = checkout
+	am = commit --amend
+	unadd = reset HEAD --
