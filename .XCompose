@@ -60,16 +60,26 @@
 <Multi_key> <g> <q> <s> : "ς"    U03C2    # GREEK SMALL LETTER FINAL SIGMA
 <Multi_key> <g> <q> <x> : "ξ"    U03BE    # GREEK SMALL LETTER XI
 
-# spanish letters
-<Multi_key> <a> <a> : "á"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <A> <A> : "Á"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <e> <e> : "é"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <E> <E> : "É"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <i> <i> : "í"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <I> <I> : "Í"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <o> <o> : "ó"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <O> <O> : "Ó"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <u> <u> : "ú"    U03A9    # GREEK CAPITAL LETTER OMEGA
-<Multi_key> <U> <U> : "Ú"    U03A9    # GREEK CAPITAL LETTER OMEGA
+# LATIN CAPITAL LETTERS WITH ACUTE
+<Multi_key> <A> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
+<Multi_key> <E> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
+<Multi_key> <I> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
+<Multi_key> <O> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
+<Multi_key> <U> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
 
-<Multi_key> <n> <n> : "ñ"    U03A9    # GREEK CAPITAL LETTER OMEGA
+# LATIN SMALL LETTERS WITH ACUTE
+<Multi_key> <a> <a> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
+<Multi_key> <e> <e> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
+<Multi_key> <i> <i> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
+<Multi_key> <o> <o> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
+<Multi_key> <u> <u> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
+
+# LATIN LETTERS N WITH TILDE
+<Multi_key> <n> <n> : "ñ"    U03A9    # LATIN SMALL LETTER N WITH TILDE
+<Multi_key> <N> <n> : "ñ"    U03A9    # LATIN SMALL LETTER N WITH TILDE
+<Multi_key> <N> <N> : "Ñ"    U03A9    # LATIN CAPITAL LETTER N WITH TILDE
+<Multi_key> <n> <N> : "Ñ"    U03A9    # LATIN CAPITAL LETTER N WITH TILDE
+
+# FAST SUPERSCRIPT TWO AND THREE
+<Multi_key> <2> <2> : "²"    U03A9    # SUPERSCRIPT TWO
+<Multi_key> <3> <3> : "³"    U03A9    # SUPERSCRIPT THREE
