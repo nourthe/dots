@@ -1,4 +1,4 @@
-export EDITOR=nvim
+export EDITOR=vim
 export PAGER=less
 
 # Set the default browser.
