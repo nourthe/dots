@@ -1,7 +1,6 @@
 # system
 alias ll='ls -alFh'
 alias la='ls -A'
-alias vim='nvim'
 alias rm='trash-put'
 
 # errors control
