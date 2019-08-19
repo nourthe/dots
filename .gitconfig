@@ -5,5 +5,6 @@
 	lodag = log --oneline --decorate --all --graph --color
 	lod = log --oneline --decorate --color
 	co = checkout
-	am = commit --amend
+	cam = commit --amend
+	cAm = commit --amend --reuse-message=HEAD
 	unadd = reset HEAD --
