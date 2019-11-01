@@ -12,9 +12,6 @@
 [[ -f $HOME/.bash/aliases.bash ]] && source $HOME/.bash/aliases.bash
 [[ -f $HOME/.bash/prompt.bash ]] && source $HOME/.bash/prompt.bash
 
-# Welcome
-echo "${BOLD}${BLUE}Bienvenido Nahuel.${RESET}"
-
 if [ "$TERM" = "linux" ]; then
     echo -en "\e]P0232323" #black
     echo -en "\e]P82B2B2B" #darkgrey
@@ -34,3 +31,9 @@ if [ "$TERM" = "linux" ]; then
     echo -en "\e]PFFFFFFF" #white
     clear #for background artifacting
 fi
+
+# Welcome
+echo ${BLUE}╔══╗
+echo ${BLUE}╚╗╔╝       		    	 ${BOLD}${BLUE}Bienvenido Nahuel.${RESET}
+echo ${BLUE}╔╝${BOLD}${RED}\(\¯\`v\´\¯\)${RESET}
+echo ${BLUE}╚══${BOLD}${RED}\`\.\¸\.${VIOLET}\<\/CODE\>
