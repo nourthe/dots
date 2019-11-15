@@ -53,6 +53,9 @@
       <property name="&lt;Super&gt;d" type="string" value="xdotool key &quot;ctrl+alt+D&quot;">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Super&gt;g" type="string" value="jumpapp godot"/>
+      <property name="&lt;Super&gt;c" type="string" value="wmctrl -c :ACTIVE:"/>
+      <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal --drop-down"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
