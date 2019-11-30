@@ -46,9 +46,7 @@
       <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-whiskermenu"/>
-      <property name="&lt;Super&gt;s" type="string" value="jumpapp thunar"/>
       <property name="&lt;Super&gt;f" type="string" value="wmctrl -a &quot;Google Chrome&quot;"/>
-      <property name="&lt;Super&gt;e" type="string" value="jumpapp emacs"/>
       <property name="&lt;Super&gt;r" type="string" value="jumpapp xfce4-terminal"/>
       <property name="&lt;Super&gt;d" type="string" value="xdotool key &quot;ctrl+alt+D&quot;">
         <property name="startup-notify" type="bool" value="true"/>
@@ -56,6 +54,8 @@
       <property name="&lt;Super&gt;g" type="string" value="jumpapp godot"/>
       <property name="&lt;Super&gt;c" type="string" value="wmctrl -c :ACTIVE:"/>
       <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal --drop-down"/>
+      <property name="&lt;Super&gt;e" type="string" value="jumpapp thunar"/>
+      <property name="&lt;Super&gt;s" type="string" value="jumpapp emacs"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
