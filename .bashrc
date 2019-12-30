@@ -34,6 +34,6 @@ fi
 
 # Welcome
 echo ${BLUE}╔══╗
-echo ${BLUE}╚╗╔╝       		    	 ${BOLD}${BLUE}Bienvenido Nahuel.${RESET}
+echo ${BLUE}╚╗╔╝       		    	 ${BOLD}${BLUE}Bienvenido a ${RED}$HOSTNAME${BLUE} Nahuel.${RESET}
 echo ${BLUE}╔╝${BOLD}${RED}\(\¯\`v\´\¯\)${RESET}
 echo ${BLUE}╚══${BOLD}${RED}\`\.\¸\.${VIOLET}\<\/CODE\>
