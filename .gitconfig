@@ -3,8 +3,11 @@
 	name = Nahuel Ourthe
 [alias]
 	lodag = log --oneline --decorate --all --graph --color
+	ldag = log --decorate --all --graph --color
 	lod = log --oneline --decorate --color
 	co = checkout
 	cam = commit --amend
 	cAm = commit --amend --reuse-message=HEAD
 	unadd = reset HEAD --
+[fetch]
+	prune = true
