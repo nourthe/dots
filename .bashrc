@@ -5,7 +5,7 @@
 [[ -f $HOME/.osbk.bashrc ]] && source $HOME/.osbk.bashrc
 
 # env. vars
-[[ -f $HOME/.bash/env.bash ]] && source $HOME/.bash/env.bash
+[[ -f $HOME/.profile ]] && source $HOME/.profile
 
 # Load colors, aliases and prompt configs
 [[ -f $HOME/.bash/colors.bash ]] && source $HOME/.bash/colors.bash
