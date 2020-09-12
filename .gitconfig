@@ -1,6 +1,10 @@
 [user]
 	email = nahuelourthe1996@gmail.com
 	name = Nahuel Ourthe
+
+[core]
+	editor = vim
+
 [alias]
 	lodag = log --oneline --decorate --all --graph --color
 	ldag = log --decorate --all --graph --color
@@ -8,7 +12,7 @@
 	co = checkout
 	cam = commit --amend
 	cAm = commit --amend --reuse-message=HEAD
-	unadd = reset HEAD --
+
 [fetch]
 	prune = true
 
