@@ -1,0 +1,66 @@
+:let mapleader = ","
+
+" Testing plugins
+set easymotion " IdeaVim BuiltIn *EasyMotion* PlugIn
+set surround " IdeaVim BuiltIn *Surround* PlugIn
+set commentary " IdeaVim BuiltIn *Commentary* PlugIn
+set ReplaceWithRegister " IdeaVim BuiltIn *ReplaceWithRegister* PlugIn
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+set relativenumber
+set number
+
+" Make Y effect to end of line instead of whole line
+nmap Y y$
+
+" Reload
+nnoremap <leader>re :source ~/.ideavimrc<cr>
+
+" Build, Run & Debug
+nnoremap <leader>cc :action Run<cr>
+nnoremap <leader>dd :action Debug<cr>
+nnoremap <leader>db :action ToggleLineBreakpoint<cr>
+
+nnoremap <leader>sc :action CleanGradleProject<cr>
+nnoremap <leader>ss :action Android.SyncProject<cr>
+
+
+" Refactor
+nnoremap <leader>rr :action RenameElement<cr>
+nnoremap <leader>rl :action Refactorings.QuickListPopupAction<cr>
+" nnoremap <leader>L :action ReformatCode<cr>
+" nnoremap <leader>ic :action InspectCode<cr>
+" nnoremap <leader>rm :action ExtractMethod<cr>
+" nnoremap <leader>rn :action RenameElement<cr>
+" nnoremap <leader>rf :action RenameFile<cr>
+" nnoremap <leader>rv :action IntroduceVariable<cr>
+" nnoremap <leader>rs :action ExtractSuperclass<cr>
+" nnoremap <leader>ri :action Inline<cr>
+
+" File Actions
+nnoremap <space>fc :action CopyElement<cr>
+nnoremap <space>fr :action RenameFile<cr>
+nnoremap <space>fm :action Move<cr>
+
+" Actions
+nnoremap <leader>aa :action Generate<cr>
+nnoremap <F5> :set invrelativenumber<cr>
+nnoremap <space>b<C-d> :tabonly<cr>
+
+" Tool
+nnoremap <space>/ :action FindInPath<cr>
+nnoremap <leader>gr :action FindUsages<cr>
+nnoremap <leader>gg :action GotoDeclaration<cr>
+"nnoremap <leader>su :action ShowUsages<cr>
+nnoremap <space><space> :action GotoAction<cr>
+"nnoremap <leader>lc :action ActivateLogcatToolWindow<cr>
+nnoremap <space>' :action ActivateTerminalToolWindow<cr>
+nnoremap [e :action GotoNextError<cr>
+nnoremap ]e :action GotoPreviousError<cr>
+nnoremap gh :action ShowErrorDescription<cr>
+
+
