@@ -13,10 +13,13 @@
 	cam = commit --amend
 	cAm = commit --amend --reuse-message=HEAD
 
+[pull]
+	rebase = true
 [fetch]
 	prune = true
-
 [rebase]
 	instructionFormat = %s [%an] # add the commit author to the end of each line
 [mergetool]
 	keepBackup = false
+[init]
+	defaultBranch = main
