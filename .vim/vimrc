@@ -14,32 +14,56 @@
 "
 " Install plugins
 call plug#begin('~/.vim/plugged')
-" Emacs Org-Mode support
-Plug 'jceb/vim-orgmode'
 
-" Syntax check
-Plug 'dense-analysis/ale'
-" Languages
-Plug 'sheerun/vim-polyglot'
-" Auto pair
-Plug 'tmsvg/pear-tree'
-" Autocomplete
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"" Base plugins
 " Vim Commentary
 Plug 'tpope/vim-commentary'
 " Vim surround
 Plug 'tpope/vim-surround'
+" Auto pair
+Plug 'tmsvg/pear-tree'
+
+" Templates
+Plug 'tibabit/vim-templates'
+
+"" Software development IDE features
+" Languages
+Plug 'sheerun/vim-polyglot'
+" Syntax check
+Plug 'dense-analysis/ale'
+" Autocomplete
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Vim documentations
 Plug 'Shougo/echodoc.vim'
+" Vim gutentags
+Plug 'ludovicchabant/vim-gutentags'
 " Vim Git
 Plug 'airblade/vim-gitgutter'
 
+"" Eye Candy
+" Dim colorscheme
+Plug 'jeffkreeftmeijer/vim-dim'
+" Highlight indentation
+Plug 'nathanaelkane/vim-indent-guides'
+" Smooth scroll (Vim 8+)
+Plug 'psliwka/vim-smoothie'
 " Airline
 "Plug 'vim-airline/vim-airline'
-
-
 "Plug 'vim-airline/vim-airline-themes'
+
+" Better CSS Omni Complete function
+Plug 'othree/csscomplete.vim'
+
+" Emacs Org-Mode support
+Plug 'jceb/vim-orgmode'
+" Table-Mode
+Plug 'dhruvasagar/vim-table-mode'
+
+
 call plug#end()
+
+" Ejs files as html
+au BufNewFile,BufRead *.ejs set filetype=html
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location
@@ -70,10 +94,14 @@ nmap Y y$
 vnoremap <C-c> "+y
 " Paste from system clipboard Insert Mode
 inoremap <C-v> <C-o>:set paste<CR><C-r>+<C-o>:set nopaste<CR>
+" Save in insert mode
+inoremap <C-s> <C-o>:w<CR>
 
 
 " Enable filetype
 filetype indent plugin on
+" Autocompletion
+set omnifunc=syntaxcomplete#Complete
 
 " Persist undo history between file editing sessions.
 set undofile
@@ -85,6 +113,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+au FileType c set expandtab ts=4 sw=2
 
 " Modify some other settings about files
 set encoding=utf-8          " always use unicode (god damnit, windows)
@@ -95,6 +124,7 @@ set noshowmode
 set laststatus=2        " always show powerline
 set wildmenu            " enable visual wildmenu
 set cmdheight=2         " give more space for displaying messages
+
 
 set nowrap              " don't wrap long lines
 set number              " show line numbers
@@ -107,9 +137,11 @@ set ignorecase
 set smartcase
 set shortmess-=S	" Show number of search occurrences
 set path+=**			" Search down into subfolders
+set wildignore+=*/node_modules/*,bower_components/*
 
 set updatetime=300      " make vim more responsive
-set signcolumn=number   " after 8.1.1564 vim merge signcol and numbercol
+"set signcolumn=number   " after 8.1.1564 vim merge signcol and numbercol
+set signcolumn=yes   " after 8.1.1564 vim merge signcol and numbercol
 
 " Digraphs https://www.branah.com/unicode-converter
 digraph NN 209

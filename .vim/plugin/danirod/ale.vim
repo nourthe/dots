@@ -3,7 +3,7 @@ let g:ale_linters = {
 	\ 'c': ['clang'],
 	\ 'javascript': ['eslint'],
 	\ 'python': ['pylint', 'flake8'],
-	\ 'typescript': ['prettier'],
+	\ 'typescript': ['eslint'],
 	\ 'ruby': ['rubocop'],
 	\ 'vuejs': ['eslint', 'vls'],
 	\ }
