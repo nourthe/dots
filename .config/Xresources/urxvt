@@ -1,0 +1,36 @@
+!https://blog.khmersite.net/2017/12/change-the-urxvt-font-size-on-the-fly/#:~:text=To%20make%20change%20to%20font,to%20do%20this%20via%20extensions.
+
+! APPEARANCE !
+URxvt.scrollBar:  False
+!set to 32-bit for real transparency (compositing required (see xcompmgr)
+URxvt.depth:      32
+/* URxvt.font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1 */
+
+! COLORS !
+URxvt.background: [90]#000
+URxvt.foreground: #bcbcbc
+/* URxvt.cursorColor: c14 */
+URxvt.cursorBlink: true
+/* URxvt.underlineColor: green */
+/* URxvt.font:xft:Source Code Pro:pixelsize=15:antialias=true:hinting=true */
+URxvt.font:xft:MesloLGS NF:pixelsize=15:antialias=true:hinting=true
+URxvt.letterSpace:-1
+
+urxvt.perl-ext-common: default,resize-font,clipboard,matcher
+urxvt*iso14755: false
+urxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt.geometry: 80x30
+URxvt.buffered: true
+
+! ICON !
+URxvt.iconFile: /usr/share/icons/Adwaita/scalable/apps/utilities-terminal-symbolic.svg
+
+! LINKS !
+!https://bbs.archlinux.org/viewtopic.php?id=47795
+!ext-common += matcher
+urxvt*perl-lib:            /usr/lib/urxvt/perl/
+urxvt*urlLauncher:        /usr/bin/chromium
+urxvt*matcher.button:        1
+urxvt*matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+
