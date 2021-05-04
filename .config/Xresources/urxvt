@@ -13,10 +13,9 @@ URxvt.foreground: #bcbcbc
 URxvt.cursorBlink: true
 /* URxvt.underlineColor: green */
 /* URxvt.font:xft:Source Code Pro:pixelsize=15:antialias=true:hinting=true */
-URxvt.font:xft:MesloLGS NF:pixelsize=15:antialias=true:hinting=true
+URxvt.font:xft:MesloLGS NF:pixelsize=14:antialias=true:hinting=true
 URxvt.letterSpace:-1
 
-urxvt.perl-ext-common: default,resize-font,clipboard,matcher
 urxvt*iso14755: false
 urxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
@@ -30,6 +29,7 @@ URxvt.iconFile: /usr/share/icons/Adwaita/scalable/apps/utilities-terminal-symbol
 !https://bbs.archlinux.org/viewtopic.php?id=47795
 !ext-common += matcher
 urxvt*perl-lib:            /usr/lib/urxvt/perl/
+urxvt.perl-ext-common: default,resize-font,clipboard,matcher
 urxvt*urlLauncher:        /usr/bin/chromium
 urxvt*matcher.button:        1
 urxvt*matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
