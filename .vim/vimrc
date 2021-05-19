@@ -59,6 +59,11 @@ Plug 'jceb/vim-orgmode'
 " Table-Mode
 Plug 'dhruvasagar/vim-table-mode'
 
+" Visualize and learn g unddo tree
+Plug 'sjl/gundo.vim'
+
+" Assembly syntax
+Plug 'ARM9/arm-syntax-vim'
 
 call plug#end()
 
