@@ -2,9 +2,9 @@
 [[ -f $HOME/.bash/prompt.bash ]] && source $HOME/.bash/prompt.bash
 
 # Welcome
-echo ${BLUE}╔══╗
-echo ${BLUE}╚╗╔╝       		    	 ${BOLD}${BLUE}Bienvenido a ${RED}$HOST${BLUE} $USERNAME.${RESET}
-echo ${BLUE}╔╝${BOLD}${RED}\(\¯\`v\´\¯\)${RESET}
-echo ${BLUE}╚══${BOLD}${RED}\`\.\¸\.${VIOLET}\<\/CODE\>
+echo ${GREEN}╔══╗
+echo ${GREEN}╚╗╔╝       		    	 ${BOLD}${GREEN}Bienvenido a ${RED}$HOST${GREEN} $USERNAME.${RESET}
+echo ${GREEN}╔╝${BOLD}${RED}\(\¯\`v\´\¯\)${RESET}
+echo ${GREEN}╚══${BOLD}${RED}\`\.\¸\.${VIOLET}\<\/CODE\>
 
 alias dots='/usr/bin/git --git-dir=/home/nahuel/.dots/ --work-tree=/home/nahuel'

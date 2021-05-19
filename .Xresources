@@ -2,8 +2,8 @@
 /* #include "/home/nahuel/.themes/Xresources/aver" */
 /* #include "/home/nahuel/.themes/Xresources/dracula" */
 /* #include "/home/nahuel/.themes/Xresources/cyberpunk" */
-/* #include "/home/nahuel/.themes/Xresources/arc-dark" */
-#include "/home/nahuel/.themes/Xresources/material"
+#include "/home/nahuel/.themes/Xresources/arc-dark"
+/* #include "/home/nahuel/.themes/Xresources/material" */
 
 #include "/home/nahuel/.config/Xresources/urxvt"
 

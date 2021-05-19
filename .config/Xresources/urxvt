@@ -34,3 +34,6 @@ urxvt*urlLauncher:        /usr/bin/chromium
 urxvt*matcher.button:        1
 urxvt*matcher.pattern.1:   \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
 
+urxvt.perl-ext-common: default,resize-font,clipboard,matcher
+urxvt*iso14755: false
+urxvt.keysym.Shift-Control-V: perl:clipboard:paste
