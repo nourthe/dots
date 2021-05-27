@@ -7,4 +7,6 @@ echo ${GREEN}╚╗╔╝       		    	 ${BOLD}${GREEN}Bienvenido a ${RED}$HO
 echo ${GREEN}╔╝${BOLD}${RED}\(\¯\`v\´\¯\)${RESET}
 echo ${GREEN}╚══${BOLD}${RED}\`\.\¸\.${VIOLET}\<\/CODE\>
 
+alias tp='trash-put'
+
 alias dots='/usr/bin/git --git-dir=/home/nahuel/.dots/ --work-tree=/home/nahuel'
