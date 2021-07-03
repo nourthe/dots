@@ -2,6 +2,7 @@
 # ~/.XCompose:
 # include "~/.dots/XCompose"
 # To refresh: sudo systemctl restart display-manager
+include "%L"
 
 # GREEK CAPITAL LETTERS
 <Multi_key> <G> <A> : "Α"    U0391    # GREEK CAPITAL LETTER ALPHA
@@ -45,11 +46,11 @@
 <Multi_key> <G> <O> : "Ω"    U03A9    # GREEK CAPITAL LETTER OMEGA
 <Multi_key> <g> <O> : "Ω"    U03A9    # GREEK CAPITAL LETTER OMEGA
 
-# DOUBLES (additional stroke <Q>)
-<Multi_key> <G> <Q> <T> : "Θ"    U0398    # GREEK CAPITAL LETTER THETA
-<Multi_key> <G> <Q> <O> : "Ο"    U039F    # GREEK CAPITAL LETTER OMICRON
-<Multi_key> <G> <Q> <X> : "Ξ"    U039E    # GREEK CAPITAL LETTER XI
-<Multi_key> <G> <Q> <P> : "Ψ"    U03A8    # GREEK CAPITAL LETTER PSI
+## # DOUBLES (additional stroke <Q>)
+## <Multi_key> <G> <Q> <T> : "Θ"    U0398    # GREEK CAPITAL LETTER THETA
+## <Multi_key> <G> <Q> <O> : "Ο"    U039F    # GREEK CAPITAL LETTER OMICRON
+## <Multi_key> <G> <Q> <X> : "Ξ"    U039E    # GREEK CAPITAL LETTER XI
+## <Multi_key> <G> <Q> <P> : "Ψ"    U03A8    # GREEK CAPITAL LETTER PSI
 
 # greek small letters
 <Multi_key> <g> <a> : "α"    U03B1    # GREEK SMALL LETTER ALPHA
@@ -80,26 +81,27 @@
 <Multi_key> <g> <q> <s> : "ς"    U03C2    # GREEK SMALL LETTER FINAL SIGMA
 <Multi_key> <g> <q> <x> : "ξ"    U03BE    # GREEK SMALL LETTER XI
 
+# error
 # LATIN CAPITAL LETTERS WITH ACUTE AND OVERRIDES DEFAULTS
 <Multi_key> <A> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
-<Multi_key> <'> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
-<Multi_key> <A> <'> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
+##<Multi_key> <'> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
+##<Multi_key> <A> <'> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
 <Multi_key> <a> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
 <Multi_key> <E> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
-<Multi_key> <'> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
-<Multi_key> <E> <'> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
+## <Multi_key> <'> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
+## <Multi_key> <E> <'> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
 <Multi_key> <e> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
 <Multi_key> <I> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
-<Multi_key> <'> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
-<Multi_key> <I> <'> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
+## <Multi_key> <'> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
+## <Multi_key> <I> <'> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
 <Multi_key> <i> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
 <Multi_key> <O> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
-<Multi_key> <'> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
-<Multi_key> <O> <'> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
+## <Multi_key> <'> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
+## <Multi_key> <O> <'> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
 <Multi_key> <o> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
 <Multi_key> <U> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
-<Multi_key> <'> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
-<Multi_key> <U> <'> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
+## <Multi_key> <'> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
+## <Multi_key> <U> <'> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
 <Multi_key> <u> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
 
 # LATIN SMALL LETTERS WITH ACUTE AND OVERRIDES DEFAULTS
