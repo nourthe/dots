@@ -81,49 +81,48 @@ include "%L"
 <Multi_key> <g> <q> <s> : "ς"    U03C2    # GREEK SMALL LETTER FINAL SIGMA
 <Multi_key> <g> <q> <x> : "ξ"    U03BE    # GREEK SMALL LETTER XI
 
-# error
 # LATIN CAPITAL LETTERS WITH ACUTE AND OVERRIDES DEFAULTS
 <Multi_key> <A> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
-##<Multi_key> <'> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
-##<Multi_key> <A> <'> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
+<Multi_key> <apostrophe> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
+<Multi_key> <A> <apostrophe> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
 <Multi_key> <a> <A> : "Á"    U03A9    # LATIN CAPITAL LETTER A WITH ACUTE
 <Multi_key> <E> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
-## <Multi_key> <'> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
-## <Multi_key> <E> <'> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
+<Multi_key> <apostrophe> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
+<Multi_key> <E> <apostrophe> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
 <Multi_key> <e> <E> : "É"    U03A9    # LATIN CAPITAL LETTER E WITH ACUTE
 <Multi_key> <I> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
-## <Multi_key> <'> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
-## <Multi_key> <I> <'> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
+<Multi_key> <apostrophe> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
+<Multi_key> <I> <apostrophe> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
 <Multi_key> <i> <I> : "Í"    U03A9    # LATIN CAPITAL LETTER I WITH ACUTE
 <Multi_key> <O> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
-## <Multi_key> <'> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
-## <Multi_key> <O> <'> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
+<Multi_key> <apostrophe> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
+<Multi_key> <O> <apostrophe> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
 <Multi_key> <o> <O> : "Ó"    U03A9    # LATIN CAPITAL LETTER O WITH ACUTE
 <Multi_key> <U> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
-## <Multi_key> <'> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
-## <Multi_key> <U> <'> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
+<Multi_key> <apostrophe> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
+<Multi_key> <U> <apostrophe> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
 <Multi_key> <u> <U> : "Ú"    U03A9    # LATIN CAPITAL LETTER U WITH ACUTE
 
 # LATIN SMALL LETTERS WITH ACUTE AND OVERRIDES DEFAULTS
 <Multi_key> <a> <a> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
-<Multi_key> <'> <a> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
-<Multi_key> <a> <'> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
+<Multi_key> <apostrophe> <a> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
+<Multi_key> <a> <apostrophe> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
 <Multi_key> <A> <a> : "á"    U03A9    # LATIN SMALL LETTER A WITH ACUTE
-<Multi_key> <'> <e> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
-<Multi_key> <e> <'> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
+<Multi_key> <apostrophe> <e> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
+<Multi_key> <e> <apostrophe> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
 <Multi_key> <e> <e> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
 <Multi_key> <E> <e> : "é"    U03A9    # LATIN SMALL LETTER E WITH ACUTE
 <Multi_key> <i> <i> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
-<Multi_key> <'> <i> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
-<Multi_key> <i> <'> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
+<Multi_key> <apostrophe> <i> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
+<Multi_key> <i> <apostrophe> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
 <Multi_key> <I> <i> : "í"    U03A9    # LATIN SMALL LETTER I WITH ACUTE
 <Multi_key> <o> <o> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
-<Multi_key> <'> <o> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
-<Multi_key> <o> <'> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
+<Multi_key> <apostrophe> <o> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
+<Multi_key> <o> <apostrophe> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
 <Multi_key> <O> <o> : "ó"    U03A9    # LATIN SMALL LETTER O WITH ACUTE
 <Multi_key> <u> <u> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
-<Multi_key> <'> <u> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
-<Multi_key> <u> <'> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
+<Multi_key> <apostrophe> <u> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
+<Multi_key> <u> <apostrophe> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
 <Multi_key> <U> <u> : "ú"    U03A9    # LATIN SMALL LETTER U WITH ACUTE
 
 # LATIN LETTERS N WITH TILDE
