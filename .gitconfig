@@ -9,6 +9,8 @@
 	lodag = log --oneline --decorate --all --graph --color
 	ldag = log --decorate --all --graph --color
 	lod = log --oneline --decorate --color
+	hsodag = log --oneline --all --graph --pretty=format:'%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(7,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D' --date=relative
+	hs = log --pretty=format:'%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(7,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D' --date=relative
 	co = checkout
 	cam = commit --amend
 	cAm = commit --amend --reuse-message=HEAD
