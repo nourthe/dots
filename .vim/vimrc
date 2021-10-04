@@ -39,6 +39,7 @@ Plug 'Shougo/echodoc.vim'
 Plug 'ludovicchabant/vim-gutentags'
 " Vim Git
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 "" Eye Candy
 " Dim colorscheme
@@ -240,6 +241,7 @@ endfunction
 " Don't act like vi
 set nocompatible            " disable vi compatibility mode
 set history=1000            " increase history size
-set noswapfile              " don't create swapfiles
+" set noswapfile              " don't create swapfiles
+set directory^=$HOME/.vim/swap// "yes, create swapfiles."
 set nobackup                " don't backup, use git!
 
