@@ -7,3 +7,6 @@ alias rm='trash-put'
 alias fuck='sudo $(history -p \!\!)'
 alias :q!='exit'
 alias :q='exit'
+
+# simple vim
+alias vi='vim -u ~/.vim/virc'
