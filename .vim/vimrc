@@ -66,11 +66,24 @@ Plug 'sjl/gundo.vim'
 " Assembly syntax
 Plug 'ARM9/arm-syntax-vim'
 
+"NerdTree
+Plug 'preservim/nerdtree'
+
 call plug#end()
 
 " Ejs files as html
 au BufNewFile,BufRead *.ejs set filetype=html
 au BufNewFile,BufRead virc set filetype=vimrc
+
+" Identify zsh files
+au BufNewFile,BufRead *.zsh setlocal filetype=zsh
+
+" Start NERDTree when Vim starts with a directory argument.
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists('s:std_in') | execute 'NERDTree' argv()[0] | wincmd p | enew | execute 'cd '.argv()[0] | wincmd c | endif
+" NERDTree left and right arrows
+autocmd FileType nerdtree nmap <buffer> h x
+autocmd FileType nerdtree nmap <buffer> l <CR>j
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location
@@ -134,6 +147,10 @@ set showmatch           " higlight matching parentheses and brackets
 set incsearch
 set ignorecase
 set smartcase
+:set wildignorecase  " Ignore case when completing file names and directories.
+                     " Has no effect when 'fileignorecase' is set, which is the case (no pun intended)
+                     " by default for systems where case in file names is normally ignored,
+                     " notably Windows.
 set shortmess-=S	" Show number of search occurrences
 set path+=**			" Search down into subfolders
 set wildignore+=*/node_modules/*,bower_components/*
@@ -219,7 +236,16 @@ set fillchars+=vert:\┊
 " Relative numbering is pretty useful for motions (3g, 5k...). However I'd
 " prefer to have a way for switching relative numbers with a single map.
 nmap <leader>tr :set invrelativenumber<CR>
-imap <F5> <ESC>:set invrelativenumber<CR>a
+nmap <leader>th :set invhls<CR>
+nmap <leader>ft :NERDTreeToggle<CR>
+nmap <leader>nt :NERDTree<CR>
+nmap <leader>ff :NERDTreeFind<CR>
+
+nmap <leader>cc :make<CR>
+nmap <leader>ce q::%v/^set makeprg=/d<CR>
+imap <F5> <ESC>:make<CR>a
+nmap <F5> <ESC>:make<CR>
+
 " Clean hidden buffers (https://stackoverflow.com/a/8459043/2033517)
 function DeleteHiddenBuffers()
   let tpbl=[]
