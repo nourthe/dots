@@ -11,3 +11,6 @@ alias :q='exit'
 
 # simple vim
 alias vi='HOME=/home/nahuel/.vi vim'
+
+# dots
+alias dots='/usr/bin/git --git-dir=/home/nahuel/.dots/ --work-tree=/home/nahuel'
