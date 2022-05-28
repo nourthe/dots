@@ -22,6 +22,9 @@
 	prune = true
 [rebase]
 	instructionFormat = %s [%an] # add the commit author to the end of each line
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
 [mergetool]
 	keepBackup = false
 [init]
