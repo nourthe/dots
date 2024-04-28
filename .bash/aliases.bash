@@ -12,4 +12,4 @@ alias :q='exit'
 alias vi='vim -u ~/.vim/virc'
 
 # dots
-alias dots='/usr/bin/git --git-dir=/home/nourthe/.dots/ --work-tree=/home/nourthe'
+alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
