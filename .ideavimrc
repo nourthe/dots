@@ -1,10 +1,17 @@
-:let mapleader = ","
+set which-key "Shows available shortcuts"
 
-" Testing plugins
-set easymotion " IdeaVim BuiltIn *EasyMotion* PlugIn
+"set easymotion " IdeaVim BuiltIn *EasyMotion* PlugIn
 set surround " IdeaVim BuiltIn *Surround* PlugIn
 set commentary " IdeaVim BuiltIn *Commentary* PlugIn
 set ReplaceWithRegister " IdeaVim BuiltIn *ReplaceWithRegister* PlugIn
+
+set nerdtree
+set argtextobj " IdeaVim BuiltIn *argtextobj* PlugIn text object for parenthesis arguments
+set exchange " IdeaVim BuiltIn *exchange* PlugIn cx to exchange objects or X in VMode
+set textobj-entire " IdeaVim BuiltIn *vim-textobj-entire* PlugIn
+set highlightedyank " Highlights yanked text
+
+:let mapleader = ","
 
 set ignorecase
 set smartcase
@@ -27,6 +34,7 @@ nnoremap <leader>re :source ~/.ideavimrc<cr>
 " Build, Run & Debug
 nnoremap <leader>cc :action Run<cr>
 nnoremap <leader>dd :action Debug<cr>
+nnoremap <leader>dc :action Debug<cr>
 nnoremap <leader>db :action ToggleLineBreakpoint<cr>
 
 nnoremap <leader>sc :action CleanGradleProject<cr>
@@ -40,15 +48,24 @@ nnoremap <leader>rl :action Refactorings.QuickListPopupAction<cr>
 " nnoremap <leader>ic :action InspectCode<cr>
 " nnoremap <leader>rm :action ExtractMethod<cr>
 " nnoremap <leader>rn :action RenameElement<cr>
-" nnoremap <leader>rf :action RenameFile<cr>
+nnoremap <leader>rf :action RenameFile<cr>
+nnoremap <leader>fr :action RenameFile<cr>
 " nnoremap <leader>rv :action IntroduceVariable<cr>
 " nnoremap <leader>rs :action ExtractSuperclass<cr>
 " nnoremap <leader>ri :action Inline<cr>
 
 " File Actions
-nnoremap <space>fc :action CopyElement<cr>
-nnoremap <space>fr :action RenameFile<cr>
-nnoremap <space>fm :action Move<cr>
+nnoremap <leader>fc :action CopyElement<cr>
+nnoremap <leader>fr :action RenameFile<cr>
+nnoremap <leader>fm :action Move<cr>
+" Open NERDTree (use q to exit)
+map <leader>nt :NERDTreeToggle<CR>
+
+
+" Editor font size
+nnoremap <leader>= :action EditorIncreaseFontSize<cr>
+nnoremap <leader>- :action EditorDecreaseFontSize<cr>
+nnoremap <leader>0 :action EditorResetFontSize<cr>
 
 " Actions
 nnoremap <leader>aa :action Generate<cr>
@@ -66,5 +83,6 @@ nnoremap <space>' :action ActivateTerminalToolWindow<cr>
 nnoremap [e :action GotoNextError<cr>
 nnoremap ]e :action GotoPreviousError<cr>
 nnoremap gh :action ShowErrorDescription<cr>
+nnoremap gD :action GotoTypeDeclaration<cr>
 
 
